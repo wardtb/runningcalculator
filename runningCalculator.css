@@ -1,0 +1,62 @@
+/* Stylesheet for Tom's Running Calculator */
+body {
+  background-color: white;
+}
+h2 {
+  color: #A9A9A9
+}
+
+#wrapper {
+  background-color: #EFEFEF;
+  position: absolute;
+  padding: 30px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  -webkit-border-radius: 30px;
+}
+
+input[type=submit] {
+    color: white;
+    text-transform: uppercase;
+    margin: 10px;
+    padding:5px 15px;
+    background:#FF3B3F;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text] {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.styled-select {
+   background: #CAEBF2;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border:2px solid #ccc;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   overflow: hidden;
+   width: 100px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   text-transform: uppercase;
+   height: 29px;
+   padding: 5px; 
+   width: 100px;
+}

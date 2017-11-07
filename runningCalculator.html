@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title>Tom's Running Calculator</title>
+  <link rel="stylesheet" type="text/css" href="runningCalculator.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="runningCalculator.js"></script>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<h1>Tom's Running Calculator</h1>
+
+    <h2>Time</h2>
+    Hours: <input id="timeHours" type="text" name="timeHours" size="5">
+    Minutes: <input id="timeMinutes" type="text" name="timeMinutes" size="5">
+    Seconds: <input id="timeSeconds" type="text" name="timeSeconds" size="5"><br>
+
+    <input id="calculateTime" type="submit" value="Calculate Time">
+
+    <h2>Distance</h2>
+    Distance: <input id="distance" type="text" name="distance" size="5"><br>
+    <div class="styled-select">
+    <select id="distanceUnit">
+      <option value="Miles">Miles</option>
+      <option value="Kilometers">Kilometers</option>
+    </select><br>
+  </div>
+    <input id="threeMile" type="button" value="3 Miles">
+    <input id="fiveMile" type="button" value="5 Miles">
+    <input id="tenMile" type="button" value="10 Miles">
+    <input id="fiveK" type="button" value="5K">
+    <input id="tenK" type="button" value="10K">
+    <input id="halfMarathon" type="button" value="Half Marathon">
+    <input id="marathon" type="button" value="Marathon">
+    <br>
+    <input id="calculateDistance" type="submit" value="Calculate Distance">
+
+    <h2>Pace</h2>
+    Hours: <input id="paceHours" type="text" name="paceHours", size="5">
+    Minutes: <input id="paceMinutes" type="text" name="paceMinutes" size="5">
+    Seconds: <input id="paceSeconds" type="text" name="paceSeconds" size="5"><br>
+    <div class="styled-select">
+    <select id="paceUnit">
+      <option value="Miles">Miles</option>
+      <option value="Kilometers">Kilometers</option>
+    </select><br>
+  </div>
+    <input id="calculatePace" type="submit" value="Calculate Pace">
+
+</div>
+
+</body>
+</html>
